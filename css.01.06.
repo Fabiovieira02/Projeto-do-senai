@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: #000000f8;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #000000;
+    color: #000000;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    margin: 10px;
+}
+
+.image {
+    width: 200px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+img {
+    width: 20%;
+}
+
+.carousel img {
+    height: 400px;
+    max-width: fit-content;
+    margin: auto;
+}
+
+
+    body {
+        background-image: url("𝐚𝐥𝐢𝐞𝐱𝐩𝐫𝐞𝐬𝐬 𝐫𝐞𝐯𝐞𝐫𝐬𝐨.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+
+      .container {
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      input {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+      
+      button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+    
+      .container {
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: left; /* Adicione esta linha */
+      }
+
+
+      .cart {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background-color: #f8f8f8;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+      
+      .cart-icon {
+        width: 24px;
+        height: 24px;
+        background-image: url('carrinho.png'); /* Substitua pela imagem do seu ícone de carrinho */
+        background-size: cover;
+      }
+      
+      .cart-items {
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        width: 20px;
+        height: 20px;
+        background-color: #ff5757;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: cart-bounce 0.5s infinite alternate;
+      }
+      
+      @keyframes cart-bounce {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.1);
+        }
+      }
+
+
+
+      .compras img {
+        height: 30px;
+        width: 30px;
+        line-height: 10px;
+  }
+  .compras {
+        font-size: 12px;
+        padding-right: 35px;
+        text-align: right;
+        width: 150px;
+        height: 25px;
+        position: relative;
+        float: right;
+        bottom: 14px;
+        clear: right;
+  }
+  .compras ol li {
+        display: inline;
+        text-align: center;
+        list-style-type: none;
+  }
+  .carrinho {
+        position: absolute;
+        /*right: Npx; depende da imagem ela pode estar tocando no seu texto*/
+        bottom: 5px;
+  }
+  .compras a {
+        text-decoraton: none;
+  }
+  .cabeloja {
+        left: 150px;
+  }
+  
+  
