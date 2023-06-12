@@ -40,13 +40,13 @@
     <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="imagem/mouse-removebg-preview.png" class="d-block w-100" alt="Slide 1">
+            <img src="./222.jpg" class="d-block w-10" alt="Slide 1">
           </div>
           <div class="carousel-item">
-            <img src="imagem/munitor-removebg-preview.png" class="d-block w-100" alt="Slide 2">
+            <img src="./celular.png" class="d-block w-10" alt="Slide 2">
           </div>
           <div class="carousel-item">
-            <img src="imagem/png-removebg-preview.png" class="d-block w-100" alt="Slide 3">
+            <img src="./pc.png" class="d-block w-100" alt="Slide 3">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
@@ -63,17 +63,18 @@
         <h2>Produtos</h2>
         <div id="celulares">        
 
-            <img src="imagem/celular.png" alt="Iphone 12">
+            <img src="./celular.png" alt="Iphone 12">
             <p>𝗜𝗽𝗵𝗼𝗻𝗲</p>
             <span class="preco">R$2.500,00</span>
             <br>
-
-            <img src="imagem/munitor-removebg-preview.png" alt="munitor">
+                
+            <img src="./222.jpg" alt="munitor">
             <p>𝐌𝐨𝐧𝐢𝐭𝐨𝐫 𝐆𝐚𝐦𝐞𝐫 𝐒𝐚𝐦𝐬𝐮𝐧𝐠 𝐎𝐝𝐲𝐬𝐬𝐞𝐲</p>
-            <span class="preco">R$2.300,00 </span>
+      
+              <span class="preco">R$2.300,00 </span>
         </div>
 
-    <img src="imagem/mouse-removebg-preview.png" alt="mouse">
+    <img src="mouse-removebg-preview.png" alt="mouse">
     <p>𝐌𝐨𝐮𝐬𝐞 𝐃𝐞 𝐂𝐨𝐦𝐩𝐮𝐭𝐚𝐝𝐨𝐫, 𝐑𝐚𝐳𝐞𝐫 𝐈𝐧𝐜,</p>
     
     <span class="preco">R$263,01</span>    
@@ -81,7 +82,7 @@
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   
-    <img src="imagem/pc.jpg" alt="Minha Imagem">
+    <img src="./pc.png" alt="Minha Imagem">
   <p>𝗣𝗿𝗲𝗰̧𝗼 𝗽𝗰 𝗴𝗮𝗺𝗲𝗿</p>
   <p>R$5.500.00 </p>
   <div class="container">
@@ -92,5 +93,4 @@
       </ul>
 
 </html>
-
 
