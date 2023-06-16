@@ -193,4 +193,64 @@ img {
   height: auto; /* Mantém a proporção original da imagem */
 }
 
+
+
+
+
+
+
+
+
+16/06/2023
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ee2626;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #af3c3c;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #aa0101;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
   
