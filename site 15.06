@@ -1,76 +1,128 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <title>𝐚𝐥𝐢𝐞𝐱𝐩𝐫𝐞𝐬𝐬 𝐫𝐞𝐯𝐞𝐫𝐬𝐨</title>
+  <title>Aliexpress reverso</title>
+  <nav>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Produtos</a></li>
+      <li><a href="#">Carrinho</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+  
+  <section>
+    <h2>Bem-vindo à Aliexpress reverso!</h2>
+    <p>Aqui você encontrará os melhores produtos com os melhores preços.</p>
+  </section>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <title>𝐚𝐥𝐢𝐞𝐱𝐩𝐫𝐞𝐬𝐬 𝐫𝐞𝐯𝐞𝐫𝐬𝐨</title>
 </head> 
 </style>
 <body>
-    <header>
-        <h1>𝐚𝐥𝐢𝐞𝐱𝐩𝐫𝐞𝐬𝐬 𝐫𝐞𝐯𝐞𝐫𝐬𝐨</h1>
-        <nav>
-            <button class="animated-button">Moda Feminina</button>
-            <button class="animated-button">Moda Masculina</button>
-            <button class="animated-button">Telefonia e Comunicação</button>
-            <button class="animated-button">Computadores, Escritório, Segurança</button>
-            <button class="animated-button">Casa, Pet, Eletrodomésticos</button>
-            <button class="animated-button">Bolsas e Calçados</button>
-            <button class="animated-button">Brinquedos e Infantil</button>
-            <button class="animated-button">Diversão Ao Ar Livre</button>
-            <button class="animated-button">Saúde, Beleza, Cabelo</button>
-            <button class="animated-button">Auto e Moto</button>
-            <button class="animated-button">Ferramentas e Relógios, Reforma, Construção</button>
-        </nav>
-    </header>
+  <header>
+      <h1>𝐚𝐥𝐢𝐞𝐱𝐩𝐫𝐞𝐬𝐬 𝐫𝐞𝐯𝐞𝐫𝐬𝐨</h1>
+      <nav>
+          <button class="animated-button">Moda Feminina</button>
+          <button class="animated-button">Moda Masculina</button>
+          <button class="animated-button">Telefonia e Comunicação</button>
+          <button class="animated-button">Computadores, Escritório, Segurança</button>
+          <button class="animated-button">Casa, Pet, Eletrodomésticos</button>
+          <button class="animated-button">Bolsas e Calçados</button>
+          <button class="animated-button">Brinquedos e Infantil</button>
+          <button class="animated-button">Diversão Ao Ar Livre</button>
+          <button class="animated-button">Saúde, Beleza, Cabelo</button>
+          <button class="animated-button">Auto e Moto</button>
+          <button class="animated-button">Ferramentas e Relógios, Reforma, Construção</button>
+      </nav>
+  </header>
 
-    <div class="container">
-        <h2>Login</h2>
-        <input type="text" placeholder="Login" id="Login">
-        <input type="password" placeholder="Senha" id="Senha">
-        
-        <form>
-          <input type="text" placeholder="E-mail" required>
-          <input type="password" placeholder="Senha" required>
-          <button type="submit">Entrar</button>
-        </form>
-      </div>
-    
-        <section id="secao-prod">
-        <h2>Produtos</h2>
-        <div id="celulares">        
-        
-            <img src="./celular.png" height="400" alt="celular">
-            <p>𝗜𝗽𝗵𝗼𝗻𝗲</p>
-            <span class="preco">R$2.500,00</span>
-            <br>
-                
-           <img src="./222.jpg" height="400" alt="munitor">
-
-            <p>𝐌𝐨𝐧𝐢𝐭𝐨𝐫 𝐆𝐚𝐦𝐞𝐫 𝐒𝐚𝐦𝐬𝐮𝐧𝐠 𝐎𝐝𝐲𝐬𝐬𝐞𝐲</p>
-      
-              <span class="preco">R$2.300,00 </span>
-        </div>
-
-    <img src="mouse-removebg-preview.png" height="200" alt="mouse">
-
-    <p>𝐌𝐨𝐮𝐬𝐞 𝐃𝐞 𝐂𝐨𝐦𝐩𝐮𝐭𝐚𝐝𝐨𝐫, 𝐑𝐚𝐳𝐞𝐫 𝐈𝐧𝐜,</p>
-    
-    <span class="preco">R$263,01</span>    
-    </section>
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  
-    <img src="./11.png" height="400" alt="pc">
-  <p>𝗣𝗿𝗲𝗰̧𝗼 𝗽𝗰 𝗴𝗮𝗺𝗲𝗿</p>
-  <p>R$5.500.00 </p>
   <div class="container">
+      
+      <section id="secao-prod">
+      <h2>Produtos</h2>
+      <div id="celulares">        
+      
+          <img src="./celular.png" height="400" alt="celular">
+          <p>𝗜𝗽𝗵𝗼𝗻𝗲</p>
+          <span class="preco">R$2.500,00</span>
+          <br>
+              
+         <img src="./222.jpg" height="400" alt="munitor">
 
-    <ul class="ls-pager">
-        <li><a href="#">&laquo;  Anterior</a></li>
-        <li><a href="#">Próximo &raquo;</a></li>
-      </ul>
+          <p>𝐌𝐨𝐧𝐢𝐭𝐨𝐫 𝐆𝐚𝐦𝐞𝐫 𝐒𝐚𝐦𝐬𝐮𝐧𝐠 𝐎𝐝𝐲𝐬𝐬𝐞𝐲</p>
+    
+            <span class="preco">R$2.300,00 </span>
+      </div>
+
+
+      <img src="./11.png" height="400" alt="pc">
+      <p>𝗣𝗿𝗲𝗰̧𝗼 𝗽𝗰 𝗴𝗮𝗺𝗲𝗿</p>
+      <p>R$5.500.00 </p>
+      <div class="container">
+
+  <img src="mouse-removebg-preview.png" height="200" alt="mouse">
+
+  <p>𝐌𝐨𝐮𝐬𝐞 𝐃𝐞 𝐂𝐨𝐦𝐩𝐮𝐭𝐚𝐝𝐨𝐫, 𝐑𝐚𝐳𝐞𝐫 𝐈𝐧𝐜,</p>
+  
+  <span class="preco">R$263,01</span>    
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #555;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+  
+  <footer>
+    <p>&copy; Aliexpress reverso</p>
+  </footer>
+</body>
 </html>
+
